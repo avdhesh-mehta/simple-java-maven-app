@@ -23,6 +23,10 @@
         <artifactId>maven-jar-plugin</artifactId>
         <version>3.0.2</version>
         <configuration>
+           <includes>
+            <include>buildspec.yml</include>
+            <include>appspec.yml</include>
+           </includes>
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
