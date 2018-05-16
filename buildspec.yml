@@ -12,3 +12,5 @@ phases:
 artifacts:
   files:
     - target/my-app-1.0-SNAPSHOT.jar
+    - deploy/*
+    discard-paths: yes
