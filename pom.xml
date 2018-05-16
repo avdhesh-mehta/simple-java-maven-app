@@ -24,7 +24,7 @@
         <version>3.0.2</version>
         <configuration>
            <includes>
-            <include>buildspec.yml</include>
+            <include>scripts/*</include>
             <include>appspec.yml</include>
            </includes>
           <archive>
