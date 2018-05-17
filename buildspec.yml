@@ -14,4 +14,4 @@ artifacts:
     - appspec.yml
     - target/my-app-1.0-SNAPSHOT.jar
     - scripts/*
-   discard-paths: yes
+  discard-paths: yes
