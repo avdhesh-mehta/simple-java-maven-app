@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: ./my-app-1.0-SNAPSHOT.jar
-    destination: /var/lib/tomcat8/webapps
+    destination: /opt/tomcat/webapps
 hooks:
   BeforeInstall:
     - location: install_dependencies.sh
