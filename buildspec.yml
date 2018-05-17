@@ -11,5 +11,7 @@ phases:
       - mvn package
 artifacts:
   files:
-    - '**/*'
+    - appspec.yml
     - target/my-app-1.0-SNAPSHOT.jar
+    - scripts/*
+   discard-paths: yes
