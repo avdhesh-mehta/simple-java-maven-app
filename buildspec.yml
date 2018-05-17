@@ -4,11 +4,11 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - mvn test
+      - mvn package
   post_build:
     commands:
       - echo Build completed on `date`
-      - mvn package
+      - mvn test
 artifacts:
   files:
     - appspec.yml
